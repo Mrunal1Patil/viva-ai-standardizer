@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Python (ai-service)
+ai-service/.venv/
+ai-service/__pycache__/
+ai-service/.env
+ai-service/*.pyc
+# job outputs / user files
+ai-service/jobs/
+ai-service/data/
+ai-service/uploads/
+
+# Java (Spring Boot)
+standardizer-api/target/
+standardizer-api/.env
+
+# Logs
+*.log
+logs/
+
+# Excel/CSV samples (avoid pushing any private data)
+*.xlsx
+*.xls
+*.csv
+*.tsv
